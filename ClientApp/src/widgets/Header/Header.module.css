@@ -1,0 +1,44 @@
+.Header {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(240, 240, 240, 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 200px;
+    padding: 6px;
+    border: 1px solid #BBB;
+}
+
+.Header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 0 12px;
+    transition: .2s ease;
+    color: #777;
+}
+
+.DefaultLink:hover {
+    color: #6AB4EC !important;
+}
+
+.HeaderWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0; left: 0;
+  margin: 16px;
+  z-index: 0;
+}
+
+.ActiveLink {
+  color: #6AB4EC !important;
+  background: transparent;
+  box-shadow: 0 4px 0 -2px #6AB4EC;
+}
