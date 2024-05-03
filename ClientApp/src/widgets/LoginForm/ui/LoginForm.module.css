@@ -1,0 +1,28 @@
+.Container {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.Container img {
+  width: 70px;
+  background-color: aqua;
+  border-radius: 100%;
+  animation: spin 40s linear 0s infinite;
+  margin-bottom: 15px;
+}
+
+.Container text {
+  color: rgb(22, 137, 231);
+  font-weight: 777;
+  font-size: 26px;
+}
